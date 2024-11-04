@@ -1,8 +1,6 @@
 .footer {
     color: #333;
     margin-top: 67px;
+    padding-bottom: 60px;
 }
 
-.footer page__section{
-    max-width: 318px;
-}
