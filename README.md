@@ -12,6 +12,6 @@ This project is made so all the elements are displayed correctly on popular scre
   
 **GitHub**  
   
-* [Link to the project on GitHub] https://github.com/Rissa-Licia/se_project_aroundtheus.git
+* [Link to the project on GitHub] https://rissa-licia.github.io/se_project_aroundtheus/
   
 
