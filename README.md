@@ -15,3 +15,6 @@ This project is made so all the elements are displayed correctly on popular scre
 * [Link to the project on GitHub] https://rissa-licia.github.io/se_project_aroundtheus/
   
 
+*Screen Recording w/Audio*
+
+https://drive.google.com/file/d/1BLWsvaulPNVLHR4rFQ6-62wu8w4H5JzD/view?usp=sharing

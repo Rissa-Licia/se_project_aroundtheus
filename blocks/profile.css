@@ -1,9 +1,10 @@
 .profile {
     display: flex;
     align-items: center;
-    margin-top: 48px;
+    margin-top: 40px;
     margin-bottom: 50px;
-    margin-left: 36;
+    /*margin-left: 36px;
+    margin-right: 36px;*/
 }
 
 .profile__info {
@@ -29,6 +30,8 @@
     height: 50px;
     margin-left: auto;
     border: 1px;
+    border-style: solid;
+    border-color: white;
 }
 
 .profile__title {
@@ -66,37 +69,42 @@
     opacity: 0.6;
 }
 
-@media (min-width: 581px) and (max-width: 775px) {
+@media (max-width: 775px) {
 
     .profile {
-     margin-left: 200px;
-     margin-right: 200px;
+     padding-left: 20px;
+     padding-right: 20px;
      display: flex;
      align-content: center;
-     flex-wrap: wrap;
     }
  
     .profile__image {
      align-items: center;
     }
  
-    .profile__title {
+    /*.profile__description {
      text-align: center;
-    }
- 
-    .profile__description {
-     text-align: center;
-    }
+    }*/
  
     .profile__add-button {
      text-align: center;
+     border-style: solid;
+     border-color: white;
     }
+
+.profile__info {
+    margin: 19px
+}
 }
 
-@media (min-width: 320px) and (max-width: 580px) {
+@media (max-width: 720px) {
     .profile {
         flex-direction: column;
-        margin-left: 19px;
+        padding-left: 19px;
+        padding-right: 19px;
+        margin-bottom: 36px;
+        box-sizing: border-box;
+
     }
     
     .profile__image {
@@ -107,21 +115,28 @@
     }
     
     .profile__info {
-        width: 100%;
-        display: flex;
+       /*  width: 100%; */
+       /* display: flex;*/
         flex-wrap: wrap;
         justify-content: center;
         gap: 14px;
         margin-bottom: 36px;
+        grid-template-columns: auto;
     }
     
     .profile__description {
         margin: 0;
+        grid-area: description;
+        justify-self: center;
     }
     
     .profile__add-button {
         margin: 0;
         width: 100%;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        border-radius: 2px;
 
     }
     .profile__title {
