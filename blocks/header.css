@@ -1,15 +1,15 @@
-.header{
-    margin-top: 45px;
-    padding-bottom: 41px;
-    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-    padding-left:19px;
-   }
+.header {
+  margin-top: 45px;
+  padding-bottom: 41px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-left: 19px;
+}
 
-   .header__logo {
-    width: 173px;
-    height: 33px;
-    object-fit: contain;
-  }
+.header__logo {
+  width: 173px;
+  height: 33px;
+  object-fit: contain;
+}
 
 /*@media (min-width: 581px) and (max-width: 775px) {
     .header {
@@ -32,8 +32,3 @@
     padding-left: 27px;
   }
 }
-
-
-
-
-  
